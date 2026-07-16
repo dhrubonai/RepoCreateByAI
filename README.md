@@ -1,33 +1,27 @@
-<div align="center">
-  <img src="https://media.tenor.com/O-RO62XCNqsAAAAM/rem-rezero.gif" width="300" alt="Rem" />
-  <h1>IPTV Streamlinks</h1>
-  <p>A minimalist, professional collection of free-to-use IPTV stream links.</p>
-</div>
+# 📺 Premium IPTV Streamlinks
 
----
+A professionally curated, open-source collection of free-to-use, **validated** IPTV stream links, specifically optimized and organized for Bangladeshi users. 
 
-### Overview
-This repository provides a highly curated, validated selection of IPTV streams specifically organized for Bangladeshi users, alongside global entertainment and sports.
+Crafted with ❤️ by **Mohiuddin Abdul Kadir Dhrubo**.
 
-Designed with a strict black and white aesthetic. No clutter.
+## 📑 Validated Categories
+You can use the master playlist or category-specific playlists:
 
-### Collections
+- **Master Playlist**: `https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/playlist.m3u`
+- 🇧🇩 **Bangladeshi TV & News**: `https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/bd_news.m3u`
+- ⚽ **Sports (including FIFA & Live)**: `https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/sports.m3u`
+- 🎬 **Entertainment**: `https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/entertainment.m3u`
+- 🧸 **Cartoon & Kids**: `https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/kids_cartoon.m3u`
+- 🎵 **Music**: `https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/music.m3u`
 
-*   **[Master Playlist](https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/playlist.m3u)** - The complete collection.
-*   **[Bangladeshi TV & News](https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/bd_news.m3u)** - 24/7 live news and TV from Bangladesh.
-*   **[Sports](https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/sports.m3u)** - Global sports, FIFA, TSports, Toffee, beIN.
-*   **[Entertainment](https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/entertainment.m3u)** - Movies and series.
-*   **[Cartoon & Kids](https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/kids_cartoon.m3u)** - Animation channels.
-*   **[Music](https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/music.m3u)** - Music and radio.
+## 🚀 How to Use
+1. **Copy the Playlist URL** of your choice.
+2. **Open VLC Media Player** (or your preferred IPTV player like Tivimate, OTT Navigator).
+3. Go to `Media > Open Network Stream` and paste the URL.
+4. Enjoy seamless streaming for free!
 
-### Usage
-1. Copy a playlist link above.
-2. Open VLC Media Player (or Tivimate / OTT Navigator).
-3. Navigate to `Media > Open Network Stream` and paste the URL.
+## ⚖️ License
+Copyright (c) 2026 Mohiuddin Abdul Kadir Dhrubo
 
----
-
-<div align="center">
-  <small>Created by Mohiuddin Abdul Kadir Dhrubo</small><br>
-  <small>Personal use only. Redistribution is strictly prohibited.</small>
-</div>
+Permission is hereby granted to use this playlist for **personal viewing purposes only**. 
+You may NOT copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this work. The playlist is provided "as-is" strictly for personal use via media applications like VLC. Redistribution of these links in other repositories or commercial platforms is strictly prohibited.

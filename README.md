@@ -1,16 +1,25 @@
-# RepoCreateByAI
+# 📺 Premium IPTV Streamlinks
 
-This is an open source, free to use IPTV streamlinks collection. You can connect it with the VLC app and stream it for free. This is specifically curated for Bangladeshi users.
+A professionally curated, open-source collection of free-to-use IPTV stream links, specifically optimized and organized for Bangladeshi users. 
 
-It is created by **Mohiuddin Abdul Kadir Dhrubo**.
+Crafted with ❤️ by **Mohiuddin Abdul Kadir Dhrubo**.
 
-## Contents
-- **News**: Top Bangladeshi News channels.
-- **Entertainment**: Music, Movies, and Cartoons/Animation from around the world.
-- **Sports**: Global sports coverage.
-- **Weather**: Global weather updates.
+## 📑 Categories
+- 🇧🇩 **Bangladeshi News**: Stay updated with the latest news from top BD channels.
+- ⚽ **Sports**: Global and local sports coverage, including targeted channels (TSports, Toffee, Binge+, beIN, Caze TV).
+- 🎬 **Entertainment**: Movies and general entertainment from around the world.
+- 🧸 **Cartoon & Kids**: Safe and fun animation channels for children.
+- 🎵 **Music**: Endless music streams to keep the vibe going.
 
-## How to Use
-1. Download the `playlist.m3u` file from this repository.
-2. Open it with [VLC Media Player](https://www.videolan.org/vlc/) or any other IPTV supported player.
-3. Enjoy!
+## 🚀 How to Use
+1. **Copy the Playlist URL**:
+   `https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/playlist.m3u`
+2. **Open VLC Media Player** (or your preferred IPTV player like Tivimate, OTT Navigator).
+3. Go to `Media > Open Network Stream` and paste the URL.
+4. Enjoy seamless streaming for free!
+
+## ⚖️ License
+Copyright (c) 2026 Mohiuddin Abdul Kadir Dhrubo
+
+Permission is hereby granted to use this playlist for **personal viewing purposes only**. 
+You may NOT copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this work. The playlist is provided "as-is" strictly for personal use via media applications like VLC. Redistribution of these links in other repositories or commercial platforms is strictly prohibited.

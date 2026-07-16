@@ -14,7 +14,7 @@ Designed with a strict black and white aesthetic. No clutter.
 ### Collections
 
 *   **[Master Playlist](https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/playlist.m3u)** - The complete collection.
-*   **[Bangladeshi News](https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/bd_news.m3u)** - 24/7 live news from Bangladesh.
+*   **[Bangladeshi TV & News](https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/bd_news.m3u)** - 24/7 live news and TV from Bangladesh.
 *   **[Sports](https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/sports.m3u)** - Global sports, FIFA, TSports, Toffee, beIN.
 *   **[Entertainment](https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/entertainment.m3u)** - Movies and series.
 *   **[Cartoon & Kids](https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/kids_cartoon.m3u)** - Animation channels.

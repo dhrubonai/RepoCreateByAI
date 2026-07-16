@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV Streamlinks | Dhrubo</title>
+    <style>
+        :root {
+            --bg: #000000;
+            --fg: #ffffff;
+            --muted: #666666;
+            --border: #333333;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--fg);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            padding: 4rem 2rem;
+        }
+        .text-center {
+            text-align: center;
+        }
+        img.hero-gif {
+            width: 250px;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+            filter: grayscale(100%);
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin: 0 0 0.5rem 0;
+            letter-spacing: -0.02em;
+        }
+        p.subtitle {
+            color: var(--muted);
+            margin: 0 0 3rem 0;
+        }
+        .divider {
+            height: 1px;
+            background-color: var(--border);
+            margin: 2rem 0;
+        }
+        .category {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .category:last-child {
+            border-bottom: none;
+        }
+        .category-info h2 {
+            font-size: 1rem;
+            font-weight: 500;
+            margin: 0 0 0.25rem 0;
+        }
+        .category-info p {
+            font-size: 0.875rem;
+            color: var(--muted);
+            margin: 0;
+        }
+        .copy-btn {
+            background: transparent;
+            color: var(--fg);
+            border: 1px solid var(--border);
+            padding: 0.5rem 1rem;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .copy-btn:hover {
+            background: var(--fg);
+            color: var(--bg);
+        }
+        .footer {
+            margin-top: 4rem;
+            font-size: 0.75rem;
+            color: var(--muted);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center">
+            <img src="https://media.tenor.com/O-RO62XCNqsAAAAM/rem-rezero.gif" alt="Rem" class="hero-gif" />
+            <h1>IPTV Collection</h1>
+            <p class="subtitle">Curated streams. Zero clutter. Free to use.</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="category">
+            <div class="category-info">
+                <h2>Master Playlist</h2>
+                <p>The complete collection in one file.</p>
+            </div>
+            <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/playlist.m3u', this)">Copy M3U</button>
+        </div>
+
+        <div class="category">
+            <div class="category-info">
+                <h2>Bangladeshi News</h2>
+                <p>24/7 live news from top BD channels.</p>
+            </div>
+            <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/bd_news.m3u', this)">Copy M3U</button>
+        </div>
+
+        <div class="category">
+            <div class="category-info">
+                <h2>Sports</h2>
+                <p>FIFA, TSports, Toffee, beIN, Caze TV.</p>
+            </div>
+            <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/sports.m3u', this)">Copy M3U</button>
+        </div>
+
+        <div class="category">
+            <div class="category-info">
+                <h2>Entertainment</h2>
+                <p>Movies, series, and global entertainment.</p>
+            </div>
+            <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/entertainment.m3u', this)">Copy M3U</button>
+        </div>
+
+        <div class="category">
+            <div class="category-info">
+                <h2>Cartoon & Kids</h2>
+                <p>Safe animation channels for children.</p>
+            </div>
+            <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/kids_cartoon.m3u', this)">Copy M3U</button>
+        </div>
+
+        <div class="category">
+            <div class="category-info">
+                <h2>Music</h2>
+                <p>Endless music streams and live radio.</p>
+            </div>
+            <button class="copy-btn" onclick="copyLink('https://raw.githubusercontent.com/dhrubonai/RepoCreateByAI/main/music.m3u', this)">Copy M3U</button>
+        </div>
+
+        <div class="footer">
+            <p>Created by Mohiuddin Abdul Kadir Dhrubo</p>
+            <p>Personal use only. Redistribution is strictly prohibited.</p>
+        </div>
+    </div>
+
+    <script>
+        function copyLink(url, btn) {
+            navigator.clipboard.writeText(url).then(() => {
+                const originalText = btn.innerText;
+                btn.innerText = 'Copied';
+                btn.style.background = 'var(--fg)';
+                btn.style.color = 'var(--bg)';
+                setTimeout(() => {
+                    btn.innerText = originalText;
+                    btn.style.background = 'transparent';
+                    btn.style.color = 'var(--fg)';
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
